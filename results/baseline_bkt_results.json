@@ -1,0 +1,85 @@
+{
+  "model_info": {
+    "name": "baseline_bkt",
+    "type": "Standard 4-parameter BKT with fixed emissions",
+    "training_date": "2026-04-09T22:15:42.446510",
+    "random_seed": 42,
+    "num_fits": 10
+  },
+  "data_split": {
+    "test_size": 0.2,
+    "split_method": "student_level",
+    "n_total_students": 1200,
+    "n_train_students": 960,
+    "n_test_students": 240,
+    "n_train_samples": 691200,
+    "n_test_samples": 172800,
+    "n_skills": 6
+  },
+  "performance": {
+    "train": {
+      "accuracy": 0.26429542824074076,
+      "rmse": 0.8557497425125805,
+      "auc": 0.4986258706894526
+    },
+    "test": {
+      "accuracy": 0.2634606481481481,
+      "rmse": 0.8570492746174336,
+      "auc": 0.49472971612907557
+    },
+    "generalisation": {
+      "accuracy_gap": -0.0008347800925926352,
+      "rmse_gap": 0.0012995321048531183
+    }
+  },
+  "parameters": [
+    {
+      "skill": "addition",
+      "prior": 0.478125,
+      "learns": 1.0,
+      "guesses": 0.25,
+      "slips": 0.3,
+      "forgets": 0.0
+    },
+    {
+      "skill": "division",
+      "prior": 0.46979166666666666,
+      "learns": 1.0,
+      "guesses": 0.25,
+      "slips": 0.3,
+      "forgets": 0.0
+    },
+    {
+      "skill": "multiplication",
+      "prior": 0.4708333333333333,
+      "learns": 1.0,
+      "guesses": 0.25,
+      "slips": 0.3,
+      "forgets": 0.0
+    },
+    {
+      "skill": "shape_recognition",
+      "prior": 0.44375,
+      "learns": 1.0,
+      "guesses": 0.25,
+      "slips": 0.3,
+      "forgets": 0.0
+    },
+    {
+      "skill": "subtraction",
+      "prior": 0.48125,
+      "learns": 1.0,
+      "guesses": 0.25,
+      "slips": 0.3,
+      "forgets": 0.0
+    },
+    {
+      "skill": "counting",
+      "prior": 0.49895833333333334,
+      "learns": 1.0,
+      "guesses": 0.25,
+      "slips": 0.3,
+      "forgets": 0.0
+    }
+  ]
+}

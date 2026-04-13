@@ -1,0 +1,19 @@
+{
+  "skills": [
+    "counting",
+    "shape_recognition",
+    "addition",
+    "subtraction",
+    "multiplication",
+    "division"
+  ],
+  "parameters": {
+    "P_L0": 0.451,
+    "P_T": 0.142,
+    "P_G": 0.25,
+    "P_S": 0.22,
+    "P_F": 0.112,
+    "alpha_h": 0.6,
+    "beta_b": 1.2
+  }
+}

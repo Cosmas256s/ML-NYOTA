@@ -1,0 +1,7 @@
+skill,prior,learns,guesses,slips,forgets
+addition,,1.0,0.5,0.5,0.0
+counting,,1.0,0.5,0.5,0.0
+division,,1.0,0.5,0.5,0.0
+multiplication,,1.0,0.5,0.5,0.0
+shape_recognition,,1.0,0.5,0.5,0.0
+subtraction,,1.0,0.5,0.5,0.0

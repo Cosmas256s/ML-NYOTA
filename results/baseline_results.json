@@ -1,0 +1,85 @@
+{
+  "model_name": "baseline_bkt_with_forgetting",
+  "training_date": "2026-04-07T15:11:20.498025",
+  "configuration": {
+    "forgetting_enabled": true,
+    "num_fits": 5,
+    "random_seed": 42,
+    "test_size": 0.2,
+    "split_method": "student_level"
+  },
+  "data_statistics": {
+    "n_total_students": 1200,
+    "n_train_students": 960,
+    "n_test_students": 240,
+    "n_skills": 6,
+    "n_total_samples": 864000,
+    "n_train_samples": 691200,
+    "n_test_samples": 172800
+  },
+  "train_metrics": {
+    "accuracy": 0.26209442110177406,
+    "rmse": 0.85901430657366,
+    "auc": 0.5
+  },
+  "test_metrics": {
+    "accuracy": 0.2613970588235294,
+    "rmse": 0.8594201191364271,
+    "auc": 0.5
+  },
+  "generalization": {
+    "accuracy_gap": -0.0006973622782446287,
+    "rmse_gap": 0.0004058125627671716,
+    "auc_gap": 0.0
+  },
+  "parameters": [
+    {
+      "skill": "addition",
+      "prior": NaN,
+      "learns": 1.0,
+      "guesses": 0.5,
+      "slips": 0.5,
+      "forgets": 0.0
+    },
+    {
+      "skill": "counting",
+      "prior": NaN,
+      "learns": 1.0,
+      "guesses": 0.5,
+      "slips": 0.5,
+      "forgets": 0.0
+    },
+    {
+      "skill": "division",
+      "prior": NaN,
+      "learns": 1.0,
+      "guesses": 0.5,
+      "slips": 0.5,
+      "forgets": 0.0
+    },
+    {
+      "skill": "multiplication",
+      "prior": NaN,
+      "learns": 1.0,
+      "guesses": 0.5,
+      "slips": 0.5,
+      "forgets": 0.0
+    },
+    {
+      "skill": "shape_recognition",
+      "prior": NaN,
+      "learns": 1.0,
+      "guesses": 0.5,
+      "slips": 0.5,
+      "forgets": 0.0
+    },
+    {
+      "skill": "subtraction",
+      "prior": NaN,
+      "learns": 1.0,
+      "guesses": 0.5,
+      "slips": 0.5,
+      "forgets": 0.0
+    }
+  ]
+}
