@@ -2,7 +2,7 @@
   "model_info": {
     "name": "baseline_bkt",
     "type": "Standard 4-parameter BKT with fixed emissions",
-    "training_date": "2026-04-09T22:15:42.446510",
+    "training_date": "2026-04-25T17:21:39.999281",
     "random_seed": 42,
     "num_fits": 10
   },
@@ -18,24 +18,28 @@
   },
   "performance": {
     "train": {
-      "accuracy": 0.26429542824074076,
-      "rmse": 0.8557497425125805,
-      "auc": 0.4986258706894526
+      "accuracy": 0.20451967592592593,
+      "rmse": 0.8897924372917476,
+      "auc": 0.4980670628161978
     },
     "test": {
-      "accuracy": 0.2634606481481481,
-      "rmse": 0.8570492746174336,
-      "auc": 0.49472971612907557
+      "accuracy": 0.2029050925925926,
+      "rmse": 0.8916943799490445,
+      "auc": 0.4920269347874717
     },
     "generalisation": {
-      "accuracy_gap": -0.0008347800925926352,
-      "rmse_gap": 0.0012995321048531183
+      "accuracy_gap": -0.001614583333333336,
+      "rmse_gap": 0.001901942657296929
+    },
+    "ground_truth_validation": {
+      "correlation": -0.1945965215880469,
+      "mae": 0.9179579268663193
     }
   },
   "parameters": [
     {
       "skill": "addition",
-      "prior": 0.478125,
+      "prior": 0.47604166666666664,
       "learns": 1.0,
       "guesses": 0.25,
       "slips": 0.3,
@@ -43,7 +47,7 @@
     },
     {
       "skill": "division",
-      "prior": 0.46979166666666666,
+      "prior": 0.45625,
       "learns": 1.0,
       "guesses": 0.25,
       "slips": 0.3,
@@ -51,7 +55,7 @@
     },
     {
       "skill": "multiplication",
-      "prior": 0.4708333333333333,
+      "prior": 0.46041666666666664,
       "learns": 1.0,
       "guesses": 0.25,
       "slips": 0.3,
@@ -59,7 +63,7 @@
     },
     {
       "skill": "shape_recognition",
-      "prior": 0.44375,
+      "prior": 0.434375,
       "learns": 1.0,
       "guesses": 0.25,
       "slips": 0.3,
@@ -67,7 +71,7 @@
     },
     {
       "skill": "subtraction",
-      "prior": 0.48125,
+      "prior": 0.46145833333333336,
       "learns": 1.0,
       "guesses": 0.25,
       "slips": 0.3,
@@ -75,7 +79,7 @@
     },
     {
       "skill": "counting",
-      "prior": 0.49895833333333334,
+      "prior": 0.48854166666666665,
       "learns": 1.0,
       "guesses": 0.25,
       "slips": 0.3,
